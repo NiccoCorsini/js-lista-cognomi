@@ -1,3 +1,4 @@
+/* GENERAL */
 *{
     margin: 0;
     padding: 0;
@@ -7,20 +8,28 @@
 body{
     height: 100vh;
     font-family: sans-serif;
+    background-image: radial-gradient(white, rgba(30, 143, 255, 0.598));
 }
 
+/* HEADER */
 header{
+    color: #fff;
     height: 80px;
     text-align: center;
     line-height: 80px;
     background-color: rgba(30, 143, 255, 0.523);
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.221);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
+/* MAIN */
 main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100% - 80px);
+    height: 100%;
 }
 
 button{
@@ -34,9 +43,21 @@ button{
     letter-spacing: 1px;
     font-size: 1.1rem;
     cursor: pointer;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.413);
     transition: background 300ms;
 }
 
 button:hover{
     background: rgb(78, 167, 255);
+}
+
+#surnames li{
+    list-style: none;
+    color: white;
+    padding: 20px 100px;
+    margin: 10px 0;
+    background-color: dodgerblue;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.413);
+    border-radius: 8px;
+    font-size: 1.2rem;
 }

@@ -42,7 +42,7 @@ function injector() {
 
     // LIST ITEM GENERATION
     for (var j = 0; j < surnamesCapitalize.length; j++) {
-        listItem += "<li>" + " " + (j + 1) + " " + surnamesCapitalize[j] + "</li>";
+        listItem += "<li>" + (j + 1) + " " + surnamesCapitalize[j] + "</li>";
     }
 
     // PRINT LIST ITEMS IN HTML
